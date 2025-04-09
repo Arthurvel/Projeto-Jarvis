@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "description": ""
+}

@@ -2,7 +2,7 @@
 //camada de regra de négocio
 // o ideal não é chamar o banco de dados direto :)
 
-import * as reportRepo from "./repository"
+import * as reportRepo from "./repository.js"
 
 // não fiz validação pois não acredito que seje necessário validar, se um report já existe, já que a ideia é "baixar" um report sempre que quiser
 export function createReport ( report){
